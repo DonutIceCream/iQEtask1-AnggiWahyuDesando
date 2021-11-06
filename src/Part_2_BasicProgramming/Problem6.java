@@ -1,0 +1,15 @@
+package Part_2_BasicProgramming;
+
+public class Problem6 {
+    public static float Mean(float[] numbers){
+        float sum = 0;
+        for(int i = 0; i < numbers.length; i++){
+            sum = sum + numbers[i];
+        }
+        return sum / numbers.length;
+    }
+    public static void main(String[] args) {
+        float[] value = {1,2,3,4};
+        System.out.println(Mean(value));
+    }
+}
